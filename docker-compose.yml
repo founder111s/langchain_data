@@ -1,0 +1,13 @@
+services:
+  data-agent:
+    build: .
+    container_name: langchain-data-agent
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    environment:
+      - STREAMLIT_SERVER_HEADLESS=true
+    volumes:
+      - ./app/data/raw:/app/app/data/raw
+    restart: unless-stopped

@@ -1,0 +1,15 @@
+langchain>=0.3
+langchain-openai
+langgraph
+langgraph-checkpoint
+pandas>=2.0
+numpy
+plotly>=5.20
+streamlit>=1.36
+yfinance
+requests
+openpyxl
+xlrd>=2.0.1
+pydantic>=2.7
+pydantic-settings>=2.3
+python-dotenv

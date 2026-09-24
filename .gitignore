@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+app/data/raw/*
+!app/data/raw/.gitkeep
+*.zip
+.DS_Store
+.streamlit/secrets.toml
+*.csv
+
+# Personal / non-project files
+resume.md
+建行科技岗面试准备方案.docx
+技术能力提升指南_LLM_SQL_ML.md
+项目LLM工程化分析.md
+项目改进优先级与计划.md
+reports/
